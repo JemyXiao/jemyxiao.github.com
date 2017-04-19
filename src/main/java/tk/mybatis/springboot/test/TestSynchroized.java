@@ -6,6 +6,7 @@ package tk.mybatis.springboot.test;
 public class TestSynchroized {
     public synchronized void test1() {
         System.out.println("asdfasf");
+        System.out.println("test");
         TestSynchroized testSynchroized = new TestSynchroized();
         testSynchroized.test2();
     }
